@@ -1,5 +1,5 @@
 import { Mail, Notifications, Pets } from "@mui/icons-material";
-import { AppBar, Avatar, AvatarGroup, Badge, Box, InputBase, Menu, MenuItem, styled, Toolbar, Typography } from "@mui/material";
+import { AppBar, Avatar, Badge, Box, InputBase, Menu, MenuItem, styled, Toolbar, Typography } from "@mui/material";
 import React from "react";
 import { useState } from "react";
 
@@ -49,15 +49,9 @@ const Navbar = () => {
                         <Badge badgeContent={2} color="error">
                         <Notifications />
                         </Badge>
-                        <AvatarGroup max={4}>
-  <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-  <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
-  <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
-  <Avatar alt="Agnes Walker" src="/static/images/avatar/4.jpg" />
-  <Avatar alt="Trevor Henderson" src="/static/images/avatar/5.jpg" />
+                        <Avatar sx={{width:30, height:30}} src="https://www.pexels.com/photo/self-esteem-young-male-millennial-relaxing-on-floor-in-sunlight-6389849/"
                         onClick={(e) =>setOpen(true)}
-</AvatarGroup>
-                        
+                        />
                         </Icons>
                         <UserBox 
                         onClick={(e) =>setOpen(true)}>
