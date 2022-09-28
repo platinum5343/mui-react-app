@@ -49,14 +49,14 @@ const Navbar = () => {
                         <Badge badgeContent={2} color="error">
                         <Notifications />
                         </Badge>
-                        <Avatar sx={{width:30, height:30}} src="https://www.pexels.com/photo/self-esteem-young-male-millennial-relaxing-on-floor-in-sunlight-6389849/"
+                        <Avatar sx={{width:30, height:30}} src="https://mui.com/static/images/avatar/1.jpg"
                         onClick={(e) =>setOpen(true)}
                         />
                         </Icons>
                         <UserBox 
                         onClick={(e) =>setOpen(true)}>
                         
-                        <Avatar sx={{width:30, height:30}} src=""/>
+                        <Avatar sx={{width:30, height:30}} src="https://mui.com/static/images/avatar/1.jpg"/>
                         <Typography variant="span">John</Typography>
                         </UserBox>
                 </StyledToolbar>
